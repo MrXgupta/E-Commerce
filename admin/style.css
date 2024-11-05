@@ -1,0 +1,80 @@
+@import url('../style.css');
+html {
+    color: black;
+}
+
+td,
+th {
+    padding: 10px;
+    /* Padding within each cell */
+}
+
+h2 {
+    text-align: center;
+    margin: 10px 0;
+}
+
+table {
+    margin: auto;
+}
+
+button {
+    margin: 10px;
+    padding: 10px 30px;
+    transition: all 0.2s;
+    display: block;
+}
+
+button:hover {
+    background-color: #dfa541;
+}
+
+button:active {
+    background-color: white;
+    color: black;
+}
+
+td>a {
+    color: rgb(114, 109, 109);
+}
+
+td>img {
+    width: 100px;
+    height: 100px;
+}
+
+.total {
+    text-align: right;
+    margin: 0 20px;
+    font-weight: 700;
+}
+
+select {
+    float: right;
+}
+
+.product_data,
+.user_data,
+.add_new_product {
+    display: none;
+}
+
+.showme {
+    display: block;
+}
+
+form {
+    color: #FBFFB9;
+}
+
+form>input {
+    text-transform: capitalize;
+}
+
+form>select {
+    background-color: #FDD692;
+    outline: none;
+    width: 50%;
+    padding: 5px;
+    font-weight: 600;
+}

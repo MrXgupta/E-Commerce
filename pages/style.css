@@ -1,0 +1,40 @@
+    @import url(../style.css);
+    /* product_info.php */
+    
+    .product_info_div {
+        display: flex;
+        justify-content: space-evenly;
+        height: 70vh;
+        overflow: hidden;
+        /* background-color: rgb(188, 219, 246); */
+    }
+    
+    .product_info_div>div:nth-child(1) {
+        flex: 0 0 30%;
+        display: flex;
+        overflow: hidden;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .product_info_div>div:nth-child(2) {
+        flex: 0 0 70%;
+        display: flex;
+        flex-direction: column;
+        object-fit: cover;
+        justify-content: center;
+        align-items: left;
+        gap: 20px;
+    }
+    
+    .product_info_div>div>a {
+        background-color: #FDD692;
+        padding: 8px;
+        outline: none;
+        border: none;
+        font-weight: 800;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: black;
+        text-align: center;
+        width: 30%;
+    }

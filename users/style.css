@@ -1,0 +1,31 @@
+@import url('../style.css');
+.random {
+    position: relative;
+    overflow: hidden;
+}
+
+.cart {
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: #ffffff;
+    width: 400px;
+    height: 100vh;
+    transform: translateX(450px);
+    transition: 0.3s ease;
+    z-index: 101;
+    border: 4px double black;
+    overflow: hidden;
+}
+
+.cart_cont {
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    height: 90vh;
+    padding-bottom: 100px;
+}
+
+.cart>h1>i {
+    color: black;
+}
